@@ -114,6 +114,36 @@
   cursor: pointer;
 }
 
+.amazon-product {
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 370px;
+  padding: 20px;
+}
+
+.stock {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+}
+
+.button-one {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 120px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.button-two {
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 36px;
+  border-radius: 30px;
+  width: 120px;
+  font-weight: bold;
+}
+
 .subscribe-button:hover {
   background-color: rgb(235, 112, 112);
 }

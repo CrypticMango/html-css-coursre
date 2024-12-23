@@ -1,3 +1,8 @@
+a:hover {
+  color: orangered;
+}
+
+
 .subscribe-button {
   color: white;
   background-color: rgb(200, 0, 0);
@@ -11,6 +16,14 @@
   transition: opacity 0.15s;
 }
 
+.subscribe-button:hover {
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
+}
+
 .join-button {
   background-color: white;
   color: rgb(19, 112, 235);
@@ -21,8 +34,17 @@
   cursor: pointer;
   margin-right: 8px;
   margin-bottom: 20px;
-  transition: background-color 1s,
-    color 1s;
+  transition: background-color 0.15s,
+    color 0.15s;
+}
+
+.join-button:hover {
+  background-color: rgb(19, 112, 235);
+  color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
 }
 
 .tweet-button {
@@ -39,6 +61,10 @@
  transition: box-shadow 0.15s;
 }
 
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
+}
+
 .uber-button {
   background-color: black;
   color: white;
@@ -48,6 +74,11 @@
   margin-left: 8px;
   cursor: pointer;
   margin-bottom: 20px;
+  transition: opacity 1s;
+}
+
+.uber-button:hover {
+  opacity: 0.8;
 }
 
 .amazon-button {
@@ -59,7 +90,13 @@
   border: none;
   cursor: pointer;
   margin-bottom: 20px;
+  transition: background-color 1s;
 }
+
+.amazon-button:hover {
+  background-color: rgb(184, 184, 5);
+}
+
 
 .github-button {
   background-color: rgb(46, 164, 79);
@@ -73,6 +110,11 @@
   margin-left: 8px;
   cursor: pointer;
   margin-bottom: 20px;
+  transition: box-shadow 1s;
+}
+
+.github-button:hover {
+  box-shadow: 5px 5px 10px black;
 }
 
 .bootstrap-one {
@@ -85,6 +127,11 @@
   border-radius: 3px;
   margin-bottom: 20px;
   cursor: pointer;
+  transition: background-color 1s;
+}
+
+.bootstrap-one:hover {
+  background-color: rgb(62, 9, 110);
 }
 
 .bootstrap-two {
@@ -95,6 +142,12 @@
   border-radius: 3px;
   font-weight: bold;
   cursor: pointer;
+  transition: color 1s, background-color 1s;
+}
+
+.bootstrap-two:hover {
+  color: white;
+  background-color: rgb(108, 117, 125);
 }
 
 .linkedin-button {
@@ -106,6 +159,11 @@
   font-weight: bold;
   cursor: pointer;
   border: none;
+  transition: background-color 1s;
+}
+
+.linkedin-button:hover {
+  background-color: rgb(4, 54, 104);
 }
 
 .save {
@@ -116,6 +174,11 @@
   border-radius: 30px;
   font-weight: bold;
   cursor: pointer;
+  transition: border-width 0.15s;
+}
+
+.save:hover {
+  border-width: 3px;
 }
 
 .amazon-product {
@@ -148,23 +211,5 @@
   font-weight: bold;
 }
 
-.subscribe-button:hover {
-  opacity: 0.8;
-}
 
-.subscribe-button:active {
-  opacity: 0.5;
-}
 
-.join-button:hover {
-  background-color: rgb(19, 112, 235);
-  color: white;
-}
-
-.join-button:active {
-  opacity: 0.7;
-}
-
-.tweet-button:hover {
-  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
-}

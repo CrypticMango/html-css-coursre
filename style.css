@@ -8,6 +8,7 @@
   cursor: pointer;
   margin-right: 8px;
   margin-bottom: 20px;
+  transition: opacity 0.15s;
 }
 
 .join-button {
@@ -20,6 +21,8 @@
   cursor: pointer;
   margin-right: 8px;
   margin-bottom: 20px;
+  transition: background-color 1s,
+    color 1s;
 }
 
 .tweet-button {
@@ -33,6 +36,7 @@
   font-size: 15px;
   cursor: pointer;
   margin-bottom: 20px;
+ transition: box-shadow 0.15s;
 }
 
 .uber-button {
@@ -145,10 +149,22 @@
 }
 
 .subscribe-button:hover {
-  background-color: rgb(235, 112, 112);
+  opacity: 0.8;
+}
+
+.subscribe-button:active {
+  opacity: 0.5;
 }
 
 .join-button:hover {
   background-color: rgb(19, 112, 235);
   color: white;
+}
+
+.join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.486);
 }

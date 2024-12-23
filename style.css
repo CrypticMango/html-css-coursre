@@ -80,6 +80,7 @@
   border: none;
   border-radius: 3px;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .bootstrap-two {
@@ -89,6 +90,7 @@
   width: 100px;
   border-radius: 3px;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .linkedin-button {

@@ -200,6 +200,15 @@ a:hover {
   width: 120px;
   border-radius: 30px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.button-one:hover {
+  background-color: rgba(255, 216, 20, 0.753);
+}
+
+.button-one:active {
+  background-color: rgba(255, 216, 20, 0.493);
 }
 
 .button-two {
@@ -209,6 +218,15 @@ a:hover {
   border-radius: 30px;
   width: 120px;
   font-weight: bold;
+  cursor: pointer;
+}
+
+.button-two:hover {
+  background-color: rgba(255, 164, 28, 0.801); 
+}
+
+.button-two:active {
+  background-color: rgba(255, 164, 28, 0.534)
 }
 
 

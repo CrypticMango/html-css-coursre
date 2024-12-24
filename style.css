@@ -413,3 +413,19 @@ width: 280px;
 .last-line {
   margin-top: 5px;
 }
+
+.first-line {
+  margin-top: 20px;
+  margin-bottom: 7px;
+}
+
+.free-code {
+  color: rgb(71, 71, 71);
+}
+
+.web-dev {
+  margin-bottom: 20px;
+}
+.chp {
+  color: rgb(58, 150, 180);
+}

@@ -346,3 +346,70 @@ width: 280px;
   width: 280px;
   color: rgb(57, 57, 233);
 }
+
+.new {
+  color: red;
+  width: 340px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+
+.macbook {
+  font-weight: bold;
+  width: 340px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.supercharged {
+  font-size: 30px;
+  font-weight: bold;
+  width: 340px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.from {
+  text-align: center;
+  width: 340px;
+  margin-top: 10px;
+}
+
+.buy-button {
+  background-color: rgb(54, 54, 201);
+  color: white;
+  width: 50px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px;
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+
+.money-one {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.usd {
+  color: rgb(56, 56, 56);
+}
+
+.green {
+  color: green;
+  margin-top: 5px;
+}
+
+.after-hours {
+  color: rgb(56, 56, 56);
+}
+
+.red {
+  color: red;
+}
+
+.last-line {
+  margin-top: 5px;
+}

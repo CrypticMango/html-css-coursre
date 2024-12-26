@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+}
+
+p {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.thanks {
+  width: 210px;
+}
+
+.google-search {
+  width: 500px;
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 1px 1px 5px black;
+}
+
+.sign-up-form {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.first, .last {
+  display: inline-block;
+  width: 100px;
+}
+
+.first, .last, .email {
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid rgb(150, 150, 196);
+}
+
+.email {
+  width: 226px;
+}
+
+.sign-up {
+  padding: 10px 96px;
+  border-radius: 6px;
+  border: none;
+  background-color: rgb(71, 134, 230);
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.uber-request {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.pickup, .destination {
+  width: 200px;
+  padding: 10px 20px;
+  background-color: rgb(208, 211, 211);
+  border: none;
+}
+
+.request, .schedule {
+  margin-top: 20px;
+}
+
+.request {
+  background-color: black;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+}
+
+.schedule {
+  background-color: rgb(208, 211, 211);
+  border: none;
+  padding: 10px 10px;
+}
